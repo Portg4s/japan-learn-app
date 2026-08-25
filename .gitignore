@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment files — ne jamais commiter les vraies valeurs
+.env
+.env.*
+!.env.example
+
+# Snapshots de build générés par la plateforme
+isolate/
+
+# Dossier Convex généré par la plateforme (l'app n'utilise plus Convex)
+convex/
+
+# Fichiers template resynchronisés par la plateforme Freebuff (non utilisés par l'app)
+integrations.md
+src/lib/vly-integrations.ts
+
+# Archives
+*.zip
+
+# Fichiers temporaires TypeScript
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sauvegardes Git locales
+*.bundle
